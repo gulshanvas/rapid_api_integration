@@ -14,20 +14,21 @@ cd node_modules/geoip-lite && npm run-script updatedb license_key=YOUR_LICENSE_K
 ```
 create database news_analysis
 ```
-4. Run below command to run migrations :
+4. Run `npm install`
+5. Run below command to run migrations :
 ```
     npm run migrations
 ```
-5. Start memcache server :
+6. Start memcache server :
 ```
 memcached -p 11211 -d
 ```
-6. Open the terminal and set the environment variables(On mac).
+7. Open the terminal and set the environment variables(On mac).
 ```
 source environment.sh
 ```
-7. Import apis present under postman folder in postman application.
-8. Start the server by running below command :
+8. Import apis present under postman folder in postman application.
+9. Start the server by running below command :
 ```
 node app.js
 ```
