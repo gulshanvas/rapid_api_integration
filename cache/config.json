@@ -1,0 +1,13 @@
+{
+  "serverIp":"localhost",
+  "port":"11211",
+  "poolSize": 200,
+  "retries": 5,
+  "factor": 1,
+  "reconnect": 10000,
+  "timeout": 500,
+  "failures": 5,
+  "failuresTimeout": 300000,
+  "retry": 500,
+  "maxValue": "2097152"
+}
