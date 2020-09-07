@@ -22,4 +22,12 @@ create database news_analysis
 ```
 memcached -p 11211 -d
 ```
-6. Import apis present under postman folder in postman application.
+6. Open the terminal and set the environment variables(On mac).
+```
+source environment.sh
+```
+7. Import apis present under postman folder in postman application.
+8. Start the server by running below command :
+```
+node app.js
+```
