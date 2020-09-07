@@ -52,7 +52,7 @@ node app.js
 
 **Overview:**
 
-1\. For get\-news api\, **node-cache** is used to cache the response for 24-hours.
-2\. For get\-news\-analysis api\, **memcache** is used to cache the response.
-3\. There is a background script which fetches the top symbol request in minutes\(configured in environment variable <span class="colour" style="color:rgb(212, 212, 212)">**POPULAR\_SYMBOL\_VS\_COUNTRY\_COUNT)** and updates the cache.</span>
-4\. For both the apis\, worst case response time is 150ms and average is less than 100ms\.
+1. For get-news api, **node-cache** is used to cache the response for 24-hours.
+2. For get-news-analysis api, **memcache** is used to cache the response.
+3. There is a background script which fetches the top symbol request in minutes(configured in environment variable **POPULAR_SYMBOL_VS_COUNTRY_COUNT)** and updates the cache.
+4. For both the apis, worst case response time is 150ms and average is less than 100ms.
