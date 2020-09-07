@@ -55,11 +55,11 @@ class GetNews {
         return;
       }
 
-      newsOnSymbolCache.setToCache(JSON.stringify(response));
+      newsOnSymbolCache.setToCache(response);
       return response;
     }
 
-    return JSON.parse(response);
+    return response;
   }
 }
 

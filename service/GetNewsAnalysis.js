@@ -63,7 +63,7 @@ class GetNewsAnalysis {
       }
 
       // set to cache.
-      await analysisOnSymbolCache.set(JSON.stringify(response));
+      await analysisOnSymbolCache.set(response);
       return response;
     }
 
